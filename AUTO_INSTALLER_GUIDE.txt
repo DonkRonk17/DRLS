@@ -1,0 +1,131 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    DRGUI AUTO-INSTALLER QUICK GUIDE                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+WHAT IS THE AUTO-INSTALLER?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The DRGUI Auto-Installer is a Python script that automatically downloads and 
+installs all required and optional dependencies for the DRGUI addon, saving you 
+time and ensuring you have all the necessary addons.
+
+REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Python 3.8 or higher installed on your system
+✓ Internet connection
+✓ World of Warcraft closed (must not be running)
+
+QUICK START
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Close World of Warcraft completely
+2. Open Command Prompt (Windows) or Terminal (Mac/Linux)
+3. Navigate to DRGUI folder:
+   
+   Windows:
+   cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI_BK"
+   
+   Mac:
+   cd "/Applications/World of Warcraft/_retail_/Interface/AddOns/DRGUI_BK"
+
+4. Run the installer:
+   
+   Install REQUIRED addons only (recommended for first-time setup):
+   python scripts/drgui_dependency_installer.py --required-only
+   
+   Install ALL addons (required + optional):
+   python scripts/drgui_dependency_installer.py
+
+5. Wait for downloads to complete
+6. Restart World of Warcraft
+7. At character select screen, click "AddOns" button
+8. Enable all newly installed addons
+9. Enter game and type /reload
+
+WHAT GETS INSTALLED?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Required Addons (--required-only flag):
+✓ ElvUI - UI framework (essential)
+✓ Details! - Damage meter (essential)
+✓ WeakAuras - Visual effects & animations (essential)
+
+Optional Addons (without --required-only flag):
+✓ DBM-Core - Boss mod warnings
+✓ Masque - Action bar skins
+✓ Bartender4 - Additional action bars
+✓ Plater - Advanced nameplates
+✓ Hekili - Rotation helper
+✓ GuildRosterManager - Profile sharing
+
+IN-GAME COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+/drgui help       - Show all available commands
+/drgui deps       - Check which dependencies are installed
+/drgui install    - Show auto-installer instructions in-game
+/drgui debug      - Toggle debug mode
+/drgui export     - Export your current profile
+
+TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Problem: "Python not found"
+Solution: Install Python from https://www.python.org/downloads/
+         Make sure to check "Add Python to PATH" during installation
+
+Problem: "Permission denied"
+Solution: Run Command Prompt as Administrator (Right-click > Run as administrator)
+
+Problem: "WoW AddOns folder not found"
+Solution: The script will ask you to enter the path manually
+         Common paths:
+         - C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOns
+         - C:\Program Files\World of Warcraft\_retail_\Interface\AddOns
+
+Problem: Download fails for specific addon
+Solution: The script will continue with other addons
+         Download failed addon manually from CurseForge or use WoWUp.io
+
+Problem: Addon not showing in-game after install
+Solution: 1. Make sure you enabled the addon at character select screen
+         2. Type /reload in-game
+         3. Check if addon is listed in AddOns menu (character select)
+
+ALTERNATIVE INSTALLATION METHODS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. WoWUp.io (Recommended alternative):
+   - Download from: https://wowup.io/
+   - One-click addon management
+   - Auto-updates all addons
+   - Search and install DRGUI dependencies easily
+
+2. Manual Installation:
+   - Visit CurseForge: https://www.curseforge.com/wow/addons
+   - Search for each required addon
+   - Download and extract to Interface/AddOns folder
+
+SUPPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For issues or questions:
+- Reddit: /r/wow or /r/wownoob
+- Blizzard Forums: https://us.forums.blizzard.com/en/wow/
+- Class Discords: https://www.icy-veins.com/forums/topic/16114-class-discord-channels/
+
+FEATURES OF THE AUTO-INSTALLER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Automatic WoW AddOns folder detection
+✓ Checks which addons are already installed (skips them)
+✓ Downloads latest versions from CurseForge
+✓ Automatic extraction and installation
+✓ Safe mode - continues even if one addon fails
+✓ Detailed progress reporting
+✓ Cleanup of temporary files
+✓ Post-installation instructions
+
+TECHNICAL DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Uses official CurseForge API
+- Downloads compatible versions for current WoW patch
+- Verifies file integrity before extraction
+- No admin rights required (installs to user directory)
+- Safe and secure - only downloads from official sources
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                           HAPPY GAMING!                                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝

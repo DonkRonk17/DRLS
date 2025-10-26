@@ -1,0 +1,286 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    DRGUI MEDIA DIRECTORY STRUCTURE                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+This document describes the directory structure for organizing UI images and media
+files used by DRGUI. The Image Manager (/drgui images) allows you to browse,
+preview, and apply these files to your UI.
+
+DIRECTORY STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DRGUI_BK/
+├── media/
+│   ├── borders/          # Action bar and frame borders (.tga, .blp)
+│   │   ├── default_border.tga
+│   │   ├── bushido_border.tga
+│   │   ├── action_border.tga
+│   │   └── [combo]_border.tga     # Character-specific borders
+│   │
+│   ├── icons/            # Ability and UI icons (.tga, .blp)
+│   │   ├── default_icon.tga
+│   │   ├── class_icon.tga
+│   │   └── [combo]_icon.tga       # Character-specific icons
+│   │
+│   ├── backgrounds/      # UI panel backgrounds (.tga, .blp)
+│   │   ├── default_bg.tga
+│   │   └── [style]_bg.tga         # Style-specific backgrounds
+│   │
+│   ├── textures/         # UI element textures (.tga, .blp)
+│   │   └── custom_textures/       # User-added textures
+│   │
+│   └── fonts/            # Custom font files (.ttf, .otf)
+│       ├── Expressway.ttf
+│       └── custom_fonts/          # User-added fonts
+
+IMAGE CATEGORIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. BORDERS
+   Purpose: Action bar and frame borders
+   Formats: .tga, .blp
+   Default Files:
+   - default_border.tga
+   - bushido_border.tga (minimalist style)
+   - action_border.tga (bold style)
+   
+   Usage: Applied to action bars, frames, panels
+   
+2. ICONS
+   Purpose: Ability and UI element icons
+   Formats: .tga, .blp
+   Default Files:
+   - default_icon.tga
+   - class_icon.tga (class-specific)
+   
+   Usage: Action buttons, menu icons, status indicators
+
+3. BACKGROUNDS
+   Purpose: UI panel backgrounds
+   Formats: .tga, .blp
+   Default Files:
+   - default_bg.tga
+   
+   Usage: Panel backgrounds, chat windows, containers
+
+4. TEXTURES
+   Purpose: Miscellaneous UI textures
+   Formats: .tga, .blp
+   
+   Usage: Various UI elements, decorations, separators
+
+5. FONTS
+   Purpose: Custom font files
+   Formats: .ttf, .otf
+   Default Files:
+   - Expressway.ttf (default DRGUI font)
+   
+   Usage: Text throughout the UI
+
+FILE FORMAT REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TGA (Targa) Files:
+- Recommended: 32-bit TGA with alpha channel
+- Common sizes: 64x64, 128x128, 256x256, 512x512
+- Power-of-2 dimensions recommended (64, 128, 256, 512, 1024)
+- Alpha channel for transparency
+
+BLP (Blizzard Picture) Files:
+- Blizzard's native format
+- Pre-compressed for game use
+- Better performance than TGA
+- Requires BLP converter tool
+
+Font Files:
+- TrueType (.ttf) or OpenType (.otf)
+- Must include all required character sets
+- Recommended: Latin, Extended Latin, Cyrillic
+
+ADDING CUSTOM IMAGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Method 1: Via Image Manager (Recommended)
+1. Open Image Manager: /drgui images
+2. Select desired category
+3. Click "Add Image" button
+4. Enter image name and path
+5. Place file in specified location
+6. Image appears in manager
+
+Method 2: Manual File Placement
+1. Create image file (TGA/BLP format)
+2. Place in appropriate media/ subdirectory
+3. Restart WoW or /reload
+4. Add to Image Manager database
+
+Method 3: AI Generation
+1. Open Image Manager: /drgui images
+2. Click "Generate (AI)" button
+3. Follow instructions to run Python script
+4. Generated files automatically added
+
+NAMING CONVENTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Character-Specific Files:
+Format: [Race]-[Class]-[Spec]-[HeroID]_[type].tga
+Example: Human-Mage-Frost-1234_border.tga
+
+Style-Specific Files:
+Format: [style]_[type].tga
+Examples:
+- bushido_border.tga
+- action_icon.tga
+- elegant_bg.tga
+
+Generic Files:
+Format: [descriptor]_[type].tga
+Examples:
+- default_border.tga
+- glowing_icon.tga
+- dark_bg.tga
+
+IMAGE SPECIFICATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BORDERS:
+Recommended Size: 256x256 or 512x512
+Aspect Ratio: 1:1 (square)
+Format: 32-bit TGA with alpha
+Usage: Tiled around frames
+
+ICONS:
+Recommended Size: 64x64 or 128x128
+Aspect Ratio: 1:1 (square)
+Format: 32-bit TGA with alpha
+Usage: Direct display on buttons
+
+BACKGROUNDS:
+Recommended Size: 512x512 or 1024x1024
+Aspect Ratio: Varies based on panel
+Format: 32-bit TGA with alpha
+Usage: Stretched or tiled on panels
+
+TEXTURES:
+Recommended Size: 256x256
+Aspect Ratio: Varies
+Format: 32-bit TGA with alpha
+Usage: Various UI elements
+
+MANAGING IMAGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Viewing Images:
+1. /drgui images - Open Image Manager
+2. Select category from top buttons
+3. Browse available images in list
+4. Click image to preview
+
+Applying Images:
+1. Select image from list
+2. Preview appears on right side
+3. Click "Apply Selected"
+4. Type /reload to see changes
+
+Deleting Custom Images:
+1. Select custom image (not built-in)
+2. Click "Delete Custom"
+3. Confirm deletion
+4. Image removed from database
+
+Exporting/Sharing:
+- Copy image files from media/ folders
+- Share via zip, Google Drive, Dropbox, etc.
+- Recipients place files in their media/ folders
+- Add to Image Manager to make available
+
+INTEGRATION WITH AI GENERATOR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The Image Manager integrates with the AI image generator:
+
+1. In Image Manager, click "Generate (AI)"
+2. Displays command to run drgui_image_gen.py
+3. Script uses Grok-4 to generate images
+4. Generated files saved to appropriate folders
+5. Auto-added to Image Manager database
+6. Available for immediate use
+
+Example Generation:
+python scripts/drgui_image_gen.py "Human-Mage-Frost-1234"
+
+Generates:
+- Human-Mage-Frost-1234_border.tga
+- Human-Mage-Frost-1234_icon.tga
+- Human-Mage-Frost-1234_bg.tga
+
+TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Image Not Displaying:
+- Check file format (TGA or BLP)
+- Verify power-of-2 dimensions
+- Ensure alpha channel present
+- Confirm file path is correct
+- Try /reload after adding image
+
+Preview Shows Gray Box:
+- File not found at specified path
+- Incorrect file format
+- Corrupted image file
+- Check spelling in path
+
+Images Not Applying:
+- /reload required after applying
+- Check profile is active
+- Verify file permissions
+- Try re-adding image to manager
+
+Performance Issues:
+- Reduce image file sizes
+- Convert TGA to BLP format
+- Use appropriate resolutions
+- Avoid extremely large textures
+
+BEST PRACTICES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Use power-of-2 dimensions (64, 128, 256, 512, 1024)
+✓ Include alpha channel for transparency
+✓ Keep file sizes reasonable (<1MB per image)
+✓ Use descriptive filenames
+✓ Organize by category
+✓ Back up custom images regularly
+✓ Test images with /reload before sharing
+✓ Convert TGA to BLP for better performance
+✓ Follow naming conventions
+✓ Document custom image sources
+
+RESOURCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Image Creation Tools:
+- GIMP (Free) - https://www.gimp.org/
+- Photoshop - Professional editing
+- Paint.NET (Free) - Windows image editor
+- Krita (Free) - Digital painting
+
+BLP Conversion Tools:
+- BLPConverter - https://www.wowinterface.com/
+- Warcraft File Converter
+- ImageMagick with BLP plugin
+
+Image Resources:
+- Flaticon - https://www.flaticon.com/
+- DeviantArt - Custom WoW art
+- Wago.io - Community-shared UI elements
+- Your own AI-generated images via DRGUI
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                           HAPPY CUSTOMIZING!                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Last Updated: 2025-10-16
+For support: /r/wow, Blizzard Forums, Class Discords
