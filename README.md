@@ -9,9 +9,6 @@
 [![Defiant](https://img.shields.io/badge/Attitude-Defiant-orange)](https://github.com/DonkRonk17/DRLS)
 
 [![Unapologetic](https://img.shields.io/badge/Approach-Unapologetic-purple)](https://github.com/DonkRonk17/DRLS)
-(https://img.shields.io/badge/Status-Revolutionary-red)](https://github.com/DonkRonk17/DRLS)
-
-[![AI-Powered](https://img.shields.io/badge/AI-Powered-blue)](https://github.com/DonkRonk17/DRLS)
 
 
 
