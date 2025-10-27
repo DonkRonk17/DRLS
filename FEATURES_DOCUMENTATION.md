@@ -304,7 +304,7 @@ Shows commands to get AI tips and narration.
 ### Example Workflow
 ```
 In-game: /drgui codegen
-Output: python Interface\AddOns\DRGUI_BK\scripts\drgui_code_gen.py "Human-Mage-Frost-1234"
+Output: python Interface\AddOns\DRGUI\scripts\drgui_code_gen.py "Human-Mage-Frost-1234"
 
 Close WoW → Run command → Generated files → Restart WoW
 ```

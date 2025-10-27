@@ -10,7 +10,7 @@ Comprehensive testing guide for DRGUI addon and Profile Manager desktop applicat
 ### Environment Setup
 - [ ] World of Warcraft installed (_retail_ version)
 - [ ] Python 3.7+ installed
-- [ ] DRGUI_BK folder in Interface/AddOns/
+- [ ] DRGUI folder in Interface/AddOns/
 - [ ] All dependencies installed (ElvUI, Details!, WeakAuras)
 
 ### File Verification

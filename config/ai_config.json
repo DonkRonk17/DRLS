@@ -1,0 +1,34 @@
+{
+  "openai": {
+    "api_key": "",
+    "model": "gpt-4",
+    "max_tokens": 2000,
+    "temperature": 0.7,
+    "timeout": 30
+  },
+  "local_ai": {
+    "enabled": true,
+    "model_path": "models/local_ai",
+    "device": "auto",
+    "cache_responses": true
+  },
+  "suggestions": {
+    "auto_suggest": true,
+    "suggestion_frequency": "moderate",
+    "context_awareness": true,
+    "learning_enabled": true,
+    "style_adaptation": true
+  },
+  "chat": {
+    "max_history": 100,
+    "response_streaming": true,
+    "auto_apply_changes": false,
+    "confirmation_required": true
+  },
+  "analysis": {
+    "real_time_analysis": true,
+    "performance_warnings": true,
+    "layout_optimization": true,
+    "accessibility_checks": true
+  }
+}

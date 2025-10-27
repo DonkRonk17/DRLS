@@ -5,7 +5,7 @@
 echo "🚀 Setting up GitHub repository for DRGUI..."
 
 # Navigate to the DRGUI directory
-cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI_BK"
+cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI"
 
 # Add the GitHub remote
 git remote add origin https://github.com/DonkRonk17/DRGUI.git

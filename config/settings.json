@@ -1,0 +1,53 @@
+{
+  "app": {
+    "version": "2.0.0-AI-Designer",
+    "name": "DRGUI AI-Powered UI Designer",
+    "window_size": [
+      1400,
+      900
+    ],
+    "window_position": [
+      100,
+      100
+    ],
+    "theme": "dark",
+    "auto_save": true,
+    "auto_save_interval": 300,
+    "backup_count": 10
+  },
+  "simulation": {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps_target": 60,
+    "performance_mode": "balanced",
+    "enable_animations": true,
+    "simulation_speed": 1.0,
+    "background_scenarios": [
+      "stormwind",
+      "orgrimmar",
+      "raid"
+    ]
+  },
+  "ui": {
+    "grid_snap": true,
+    "grid_size": 5,
+    "show_guidelines": true,
+    "element_transparency": 0.9,
+    "preview_mode": "live",
+    "panel_layout": "default"
+  },
+  "export": {
+    "auto_export": false,
+    "export_format": "drgui_profile",
+    "backup_before_export": true,
+    "wow_addon_path": "",
+    "profile_compression": true
+  },
+  "logging": {
+    "level": "INFO",
+    "max_log_size": 10485760,
+    "log_retention_days": 30
+  }
+}

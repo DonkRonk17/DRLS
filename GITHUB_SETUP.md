@@ -21,7 +21,7 @@ After creating the repository on GitHub, run these commands in PowerShell:
 
 ```powershell
 # Navigate to the DRGUI folder
-cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI_BK"
+cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI"
 
 # Add the GitHub remote (replace YOUR_USERNAME if different)
 git remote add origin https://github.com/DonkRonk17/DRGUI.git

@@ -50,7 +50,7 @@ python --version
 
 2. **Navigate to DRGUI folder:**
 ```bash
-cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI_BK"
+cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI"
 ```
 
 3. **Run the application:**
@@ -63,7 +63,7 @@ python scripts/drgui_profile_manager.py
 1. Right-click on Desktop → New → Shortcut
 2. Enter location:
 ```
-C:\Windows\py.exe "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI_BK\scripts\drgui_profile_manager.py"
+C:\Windows\py.exe "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI\scripts\drgui_profile_manager.py"
 ```
 3. Name it "DRGUI Profile Manager"
 4. Click Finish

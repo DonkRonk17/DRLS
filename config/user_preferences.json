@@ -1,0 +1,33 @@
+{
+  "character": {
+    "name": "",
+    "class": "warrior",
+    "spec": "protection",
+    "level": 80,
+    "role": "tank"
+  },
+  "content_preferences": {
+    "primary_content": "raid",
+    "difficulty": "heroic",
+    "group_size": 20
+  },
+  "ui_preferences": {
+    "style": "minimalist",
+    "layout_density": "medium",
+    "color_scheme": "class_themed",
+    "transparency": 0.8,
+    "scale": 1.0
+  },
+  "ai_preferences": {
+    "assistance_level": "moderate",
+    "auto_apply": false,
+    "explanation_detail": "medium",
+    "suggestion_style": "conversational"
+  },
+  "workflow": {
+    "recent_profiles": [],
+    "favorite_templates": [],
+    "last_scenario": "solo",
+    "auto_load_last": true
+  }
+}

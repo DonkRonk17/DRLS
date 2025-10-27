@@ -1,0 +1,10 @@
+## Interface: 110205
+## Title: |cff1784d1DRGUI|r - Ultimate UI Framework (TEST)
+## Notes: Testing ElvUI-Independent DRGUI - TWW Ready
+## Author: DonkRonk17
+## Version: 2.0.0-TEST
+## SavedVariables: DRGUIDB
+## OptionalDeps: Details, WeakAuras, DBM-Core, BigWigs, Plater
+
+# Simplified Test Version
+DRGUI-TEST.lua

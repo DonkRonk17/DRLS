@@ -40,7 +40,7 @@ pip --version
 
 1. **Navigate to scripts folder:**
 ```bash
-cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI_BK\scripts"
+cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI\scripts"
 ```
 
 2. **Run build script:**

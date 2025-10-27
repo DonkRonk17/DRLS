@@ -21,10 +21,10 @@ QUICK START
 3. Navigate to DRGUI folder:
    
    Windows:
-   cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI_BK"
+   cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI"
    
    Mac:
-   cd "/Applications/World of Warcraft/_retail_/Interface/AddOns/DRGUI_BK"
+   cd "/Applications/World of Warcraft/_retail_/Interface/AddOns/DRGUI"
 
 4. Run the installer:
    

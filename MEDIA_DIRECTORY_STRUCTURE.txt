@@ -10,7 +10,7 @@ preview, and apply these files to your UI.
 
 DIRECTORY STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-DRGUI_BK/
+DRGUI/
 ├── media/
 │   ├── borders/          # Action bar and frame borders (.tga, .blp)
 │   │   ├── default_border.tga

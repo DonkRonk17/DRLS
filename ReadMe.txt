@@ -4,13 +4,13 @@ Overview:
 ElvUI-based addon for unique, minimalistic, cartoony Bushido-style UIs per race/class/spec/hero combo. Autodetects on login/changes via WoW API (UnitRace, UnitClass, GetSpecializationInfo, C_ClassTalents.GetActiveHeroTalentSpec). Integrates addons like Details! (real-time stats, WarcraftLogs hyperlinks), WeakAuras (animations, Wago.io imports), Masque (icons/borders), DBM/BigWigs (alerts), Hekili (rotations), BetterWardrobe (mog sync), MDT (dungeon paths), Raider.IO (rankings). xAI assistance via external Python (Grok-4 queries for narrations/tips/file gen—use key: YOUR_XAI_API_KEY_HERE). Profiles save/export via GRM (strings in chat/HTML). Creative features: Animations glow on procs (FragUI V2), borders evolve with Details! logs (pulse on kills, sim on Raidbots), AI in-game pasted into Prat/WIM (narrations from Warcraft Wiki lore). Hyperlinks: Icy Veins guides, Wowhead DB, MMO-Champion news, Blizzard Watch editorials, CurseForge/WoWInterface addons, WoWUp.io manager, Undermine Exchange economy, Saddlebag Exchange gold-making, WarcraftPets battle pets, /r/wow & /r/wownoob Reddit, Blizzard Forums, WoW Armory profiles, Battle.net official, class Discords (via Wowhead list), YouTube tutorials/streams/music (e.g., "wow ui setup 2025").
 
 Install:
-1. Place DRGUI_BK folder in Interface/AddOns/
+1. Place DRGUI folder in Interface/AddOns/
 2. Install Dependencies (REQUIRED):
    
    OPTION A - AUTO-INSTALLER (RECOMMENDED):
    - Close World of Warcraft
    - Open Command Prompt or PowerShell
-   - Navigate to: cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI_BK"
+   - Navigate to: cd "C:\Program Files (x86)\Battle.net\World of Warcraft\_retail_\Interface\AddOns\DRGUI"
    - Run: python scripts/drgui_dependency_installer.py --required-only
    - Restart WoW and enable installed addons
    

@@ -6,7 +6,7 @@ DRGUI.ScriptLauncher = {}
 
 -- Launch Python script with parameters
 function DRGUI.ScriptLauncher:LaunchScript(scriptName, args)
-    local scriptsPath = "Interface\\AddOns\\DRGUI_BK\\scripts\\"
+    local scriptsPath = "Interface\\AddOns\\DRGUI\\scripts\\"
     local command = "python " .. scriptsPath .. scriptName
     
     if args then

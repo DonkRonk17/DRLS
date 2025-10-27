@@ -10,31 +10,31 @@ local AceGUI = LibStub("AceGUI-3.0")
 local IMAGE_CATEGORIES = {
     borders = {
         name = "Borders",
-        path = "Interface\\AddOns\\DRGUI_BK\\media\\borders\\",
+        path = "Interface\\AddOns\\DRGUI\\media\\borders\\",
         description = "Action bar and frame borders",
         extensions = {".tga", ".blp"}
     },
     icons = {
         name = "Icons",
-        path = "Interface\\AddOns\\DRGUI_BK\\media\\icons\\",
+        path = "Interface\\AddOns\\DRGUI\\media\\icons\\",
         description = "Ability and UI icons",
         extensions = {".tga", ".blp"}
     },
     backgrounds = {
         name = "Backgrounds",
-        path = "Interface\\AddOns\\DRGUI_BK\\media\\backgrounds\\",
+        path = "Interface\\AddOns\\DRGUI\\media\\backgrounds\\",
         description = "UI panel backgrounds",
         extensions = {".tga", ".blp"}
     },
     fonts = {
         name = "Fonts",
-        path = "Interface\\AddOns\\DRGUI_BK\\media\\fonts\\",
+        path = "Interface\\AddOns\\DRGUI\\media\\fonts\\",
         description = "Custom font files",
         extensions = {".ttf", ".otf"}
     },
     textures = {
         name = "Textures",
-        path = "Interface\\AddOns\\DRGUI_BK\\media\\textures\\",
+        path = "Interface\\AddOns\\DRGUI\\media\\textures\\",
         description = "UI element textures",
         extensions = {".tga", ".blp"}
     }
@@ -124,7 +124,7 @@ local function CreateImagePreview(container, imagePath)
     texture:SetAllPoints()
     
     if imagePath then
-        texture:SetTexture("Interface\\AddOns\\DRGUI_BK\\" .. imagePath)
+        texture:SetTexture("Interface\\AddOns\\DRGUI\\" .. imagePath)
     else
         texture:SetColorTexture(0.2, 0.2, 0.2, 1)
     end
@@ -178,7 +178,7 @@ local function CreateImageList(container)
             imgButton:SetCallback("OnClick", function()
                 selectedImage = img
                 if currentPreview then
-                    currentPreview.texture:SetTexture("Interface\\AddOns\\DRGUI_BK\\" .. img.path)
+                    currentPreview.texture:SetTexture("Interface\\AddOns\\DRGUI\\" .. img.path)
                 end
                 print("DRGUI: Selected image: " .. img.name)
             end)
@@ -263,7 +263,7 @@ function DRGUI.ImageManager:ShowAddImageDialog()
     dialog:AddChild(nameInput)
     
     local pathLabel = AceGUI:Create("Label")
-    pathLabel:SetText("Image Path (relative to DRGUI_BK folder):")
+    pathLabel:SetText("Image Path (relative to DRGUI folder):")
     pathLabel:SetFullWidth(true)
     dialog:AddChild(pathLabel)
     
@@ -274,7 +274,7 @@ function DRGUI.ImageManager:ShowAddImageDialog()
     dialog:AddChild(pathInput)
     
     local infoLabel = AceGUI:Create("Label")
-    infoLabel:SetText("\nExample: media/borders/my_border.tga\n\nPlace your image file in the DRGUI_BK folder at the path above.")
+    infoLabel:SetText("\nExample: media/borders/my_border.tga\n\nPlace your image file in the DRGUI folder at the path above.")
     infoLabel:SetFullWidth(true)
     dialog:AddChild(infoLabel)
     
@@ -339,21 +339,21 @@ function DRGUI.ImageManager:ApplyImage(image, category)
     if category == "borders" then
         -- Apply border to action bars
         DRGUIDB[comboKey].actionbar.bar1.backdrop = {
-            texture = "Interface\\AddOns\\DRGUI_BK\\" .. image.path
+            texture = "Interface\\AddOns\\DRGUI\\" .. image.path
         }
         print("DRGUI: Applied border: " .. image.name)
         print("Type /reload to see changes")
         
     elseif category == "icons" then
         -- Apply icon theme
-        DRGUIDB[comboKey].general.iconTheme = "Interface\\AddOns\\DRGUI_BK\\" .. image.path
+        DRGUIDB[comboKey].general.iconTheme = "Interface\\AddOns\\DRGUI\\" .. image.path
         print("DRGUI: Applied icon theme: " .. image.name)
         print("Type /reload to see changes")
         
     elseif category == "backgrounds" then
         -- Apply background to panels
         DRGUIDB[comboKey].general.panelBackdrop = {
-            bgFile = "Interface\\AddOns\\DRGUI_BK\\" .. image.path
+            bgFile = "Interface\\AddOns\\DRGUI\\" .. image.path
         }
         print("DRGUI: Applied background: " .. image.name)
         print("Type /reload to see changes")

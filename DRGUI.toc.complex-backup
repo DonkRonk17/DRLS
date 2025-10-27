@@ -1,0 +1,70 @@
+## Interface: 110205
+## Title: |cff1784d1DRGUI|r - Ultimate UI Framework
+## Notes: Complete UI overhaul and enhancement system with advanced customization
+## Author: DonkRonk17
+## Version: 2.0.0
+## SavedVariables: DRGUIDB, DRGUIPrivateDB
+## SavedVariablesPerCharacter: DRGUICharacterDB
+## OptionalDeps: SharedMedia, BigWigs, Details, WeakAuras, Masque, DBM-Core
+## RequiredDeps: 
+## AddonCompartmentFunc: DRGUI_AddonCompartmentFunc
+## IconTexture: Interface\AddOns\DRGUI\media\icons\logo
+## X-Category: UI Overhaul
+## X-Curse-Project-ID: 
+## X-Wago-ID: 
+## X-Website: https://github.com/DonkRonk17/DRGUI
+
+# Core Framework
+core\engine.lua
+core\init.lua
+core\constants.lua
+core\utilities.lua
+core\events.lua
+core\database.lua
+core\modules.lua
+core\config.lua
+
+# Libraries and Dependencies  
+libs\LibStub.lua
+libs\CallbackHandler-1.0.lua
+libs\AceAddon-3.0.lua
+libs\AceEvent-3.0.lua
+libs\AceTimer-3.0.lua
+libs\AceHook-3.0.lua
+libs\AceConsole-3.0.lua
+libs\AceGUI-3.0.lua
+libs\AceConfig-3.0.lua
+
+# UI Modules
+modules\actionbars\actionbars.lua
+modules\unitframes\unitframes.lua
+modules\nameplates\nameplates.lua
+modules\chat\chat.lua
+modules\minimap\minimap.lua
+modules\databars\databars.lua
+modules\datatexts\datatexts.lua
+modules\auras\auras.lua
+modules\blizzard\blizzard.lua
+modules\skins\skins.lua
+modules\tooltip\tooltip.lua
+modules\bags\bags.lua
+
+# Enhanced Systems (DRGUI Exclusives)
+core\setup_wizard.lua
+core\profile_manager.lua
+core\ui_customization.lua
+core\script_launcher.lua
+core\image_manager.lua
+core\backup_system.lua
+
+# Integration Hooks
+integrations\alerts_hook.lua
+integrations\details_hook.lua
+integrations\weakauras_hook.lua
+integrations\mdt_hook.lua
+integrations\wardrobe_hook.lua
+integrations\file_handler.lua
+
+# Main Initialization
+DRGUI.lua
+DRGUI.xml

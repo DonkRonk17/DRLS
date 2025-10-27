@@ -2,8 +2,8 @@
 ## Title: DRGUI - DonkRonk & Grok UI
 ## Author: DonkRonk (with Grok assistance)
 ## Version: 1.0
-## Dependencies: ElvUI, Details, WeakAuras, Masque, DBM-Core, BigWigs, Hekili, BetterWardrobe, MDT, RaiderIO, Prat-3.0, WIM, GuildRosterManager
-## OptionalDeps: GTFO, mMediaTag, JiberishMedia, DBM-Test  // For sims
+## Dependencies: ElvUI, Details, WeakAuras
+## OptionalDeps: GTFO, mMediaTag, JiberishMedia, DBM-Test, Masque, DBM-Core, BigWigs, Hekili, BetterWardrobe, MDT, RaiderIO, Prat-3.0, WIM, GuildRosterManager  // For sims
 ## SavedVariables: DRGUIDB
 ## Notes: ElvUI-based UI with xAI for dynamic file gen. Test with /drgui debug.
 

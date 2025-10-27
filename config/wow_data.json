@@ -1,0 +1,184 @@
+{
+  "classes": {
+    "warrior": {
+      "color": "#C79C6E",
+      "roles": [
+        "tank",
+        "dps"
+      ]
+    },
+    "paladin": {
+      "color": "#F58CBA",
+      "roles": [
+        "tank",
+        "healer",
+        "dps"
+      ]
+    },
+    "hunter": {
+      "color": "#ABD473",
+      "roles": [
+        "dps"
+      ]
+    },
+    "rogue": {
+      "color": "#FFF569",
+      "roles": [
+        "dps"
+      ]
+    },
+    "priest": {
+      "color": "#FFFFFF",
+      "roles": [
+        "healer",
+        "dps"
+      ]
+    },
+    "shaman": {
+      "color": "#0070DE",
+      "roles": [
+        "healer",
+        "dps"
+      ]
+    },
+    "mage": {
+      "color": "#40C7EB",
+      "roles": [
+        "dps"
+      ]
+    },
+    "warlock": {
+      "color": "#8787ED",
+      "roles": [
+        "dps"
+      ]
+    },
+    "monk": {
+      "color": "#00FF96",
+      "roles": [
+        "tank",
+        "healer",
+        "dps"
+      ]
+    },
+    "druid": {
+      "color": "#FF7D0A",
+      "roles": [
+        "tank",
+        "healer",
+        "dps"
+      ]
+    },
+    "demon_hunter": {
+      "color": "#A330C9",
+      "roles": [
+        "tank",
+        "dps"
+      ]
+    },
+    "death_knight": {
+      "color": "#C41F3B",
+      "roles": [
+        "tank",
+        "dps"
+      ]
+    },
+    "evoker": {
+      "color": "#33937F",
+      "roles": [
+        "healer",
+        "dps"
+      ]
+    }
+  },
+  "ui_elements": {
+    "player_frame": {
+      "min_size": [
+        100,
+        50
+      ],
+      "max_size": [
+        400,
+        200
+      ]
+    },
+    "target_frame": {
+      "min_size": [
+        100,
+        50
+      ],
+      "max_size": [
+        400,
+        200
+      ]
+    },
+    "party_frames": {
+      "min_size": [
+        80,
+        40
+      ],
+      "max_size": [
+        200,
+        100
+      ]
+    },
+    "raid_frames": {
+      "min_size": [
+        40,
+        30
+      ],
+      "max_size": [
+        120,
+        80
+      ]
+    },
+    "action_bars": {
+      "min_size": [
+        300,
+        40
+      ],
+      "max_size": [
+        800,
+        80
+      ]
+    },
+    "minimap": {
+      "min_size": [
+        100,
+        100
+      ],
+      "max_size": [
+        300,
+        300
+      ]
+    },
+    "chat_frame": {
+      "min_size": [
+        200,
+        100
+      ],
+      "max_size": [
+        600,
+        400
+      ]
+    }
+  },
+  "scenarios": {
+    "solo": {
+      "party_size": 1,
+      "focus": "exploration"
+    },
+    "dungeon": {
+      "party_size": 5,
+      "focus": "group_coordination"
+    },
+    "raid": {
+      "party_size": 20,
+      "focus": "raid_management"
+    },
+    "pvp": {
+      "party_size": 3,
+      "focus": "enemy_tracking"
+    }
+  }
+}
