@@ -1,8 +1,8 @@
-# 🎯 **DRLS - DonkRonk's Last Shot**# 🎯 **DRLS - DonkRonk's Last Shot**# 🎯 **DRLS - DonkRonk's Last Shot**
+# 🎯 **DRLS - DonkRonk's Last Shot** 🎯
 
 ## **"The World's First & Last AI-Powered WoW Addon"**
 
-## **"The World's First & Last AI-Powered WoW Addon"**## **"The World's First & Last AI-Powered WoW Addon"**
+## **"The World's First & Last AI-Powered WoW Addon"**##
 
 [![Revolutionary](https://img.shields.io/badge/Status-Revolutionary-red)](https://github.com/DonkRonk17/DRLS)
 
@@ -38,7 +38,7 @@ In an era where Blizzard systematically dismantles addon functionality in favor 
 
 
 
----## 🚨 **THE MANIFESTO** 🚨## 🚨 **THE MANIFESTO** 🚨
+---## 🚨 **THE MANIFESTO** 🚨##
 
 
 
@@ -54,7 +54,7 @@ In an era where Blizzard systematically dismantles addon functionality in favor 
 
 ### **🤖 1. Complete WoW Ecosystem Analysis**
 
-```bashIn an era where Blizzard systematically dismantles addon functionality in favor of inferior built-in features, and where the community recoils at the mention of AI with cries of "Ewww, AI? Gross!" - we take our stand.In an era where Blizzard systematically dismantles addon functionality in favor of inferior built-in features, and where the community recoils at the mention of AI with cries of "Ewww, AI? Gross!" - we take our stand.
+```bashIn an era where Blizzard systematically dismantles addon functionality in favor of inferior built-in features, and where the community recoils at the mention of AI with cries of "Ewww, AI? Gross!" - we take our stand.
 
 python WoW_Addon_Ecosystem_Analyzer.py
 
@@ -70,7 +70,7 @@ python WoW_Addon_Ecosystem_Analyzer.py
 
 - **Performance analysis** across all addon categories
 
-- **🚨 THE TRAGEDY:** This level of ecosystem intelligence will be IMPOSSIBLE when Blizzard restricts addons!**Revolutionary. Defiant. Unapologetic.****Revolutionary. Defiant. Unapologetic.**
+- **🚨 THE TRAGEDY:** This level of ecosystem intelligence will be IMPOSSIBLE when Blizzard restricts addons!**Revolutionary. Defiant. Unapologetic.**
 
 
 
@@ -202,15 +202,15 @@ python launch_drgui_ai.py
 
 - **AI Layout Engine** - Learns from 16 UI frameworks to create perfection
 
-- **Predictive Configuration** - AI-generated profiles that adapt to YOU1. Download DRLS from this repository1. Close World of Warcraft
+- **Predictive Configuration** - AI-generated profiles that adapt to YOU! Download DRLS from this repository! Close World of Warcraft
 
 - **Ecosystem Intelligence** - Understanding relationships between 200+ addons  
 
-- **Performance Optimization** - 60-90% improvements over Blizzard's tools2. Extract to your `World of Warcraft\_retail_\Interface\AddOns\` folder2. Download and extract DRGUI to your AddOns folder
+- **Performance Optimization** - 60-90% improvements over Blizzard's tools. Extract to your `World of Warcraft\_retail_\Interface\AddOns\` folder. Download and extract DRGUI to your AddOns folder
 
 - **Adaptive Learning** - Gets better the more you play
 
-- **🚨 BLIZZARD KILLS ALL OF THIS** with their addon restrictions!3. Restart World of Warcraft3. Open Command Prompt/PowerShell and navigate to the DRGUI folder:
+- **🚨 BLIZZARD KILLS ALL OF THIS** with their addon restrictions! Restart World of Warcraft. Open Command Prompt/PowerShell and navigate to the DRGUI folder:
 
 
 
@@ -346,7 +346,7 @@ Blizzard's "solution":3. Point to your WoW installation directory
 
 - ❌ Basic, inflexible built-in UIs
 
-- ❌ No cross-addon communication### **Technical Breakthroughs:**4. Manage your profiles with ease
+- ❌ No cross-addon communication### **Technical Breakthroughs:**. Manage your profiles with ease
 
 - ❌ No AI optimization
 
@@ -438,15 +438,15 @@ DRGUI.AI = {/drgui help          - Show all available commands
 
 ---
 
-        -- Class/spec/content optimization2. Browse to your WoW installation folder
+        -- Class/spec/content optimization. Browse to your WoW installation folder
 
 ## 👨‍💻 **THE HEROES BLIZZARD WANTS TO SILENCE**
 
-        -- Screen resolution adaptation3. Click "Load Profiles" to import your SavedVariables
+        -- Screen resolution adaptation. Click "Load Profiles" to import your SavedVariables
 
 ### **Creator & Revolutionary:**
 
-**Randell Logan Smith** (DonkRonk / @MetaphyKing)    },4. Use the GUI to:
+**Randell Logan Smith** (DonkRonk / @MetaphyKing)    },. Use the GUI to:
 
 - *Visionary who saw what was possible*
 
@@ -550,7 +550,7 @@ DRGUI.AI = {/drgui help          - Show all available commands
 
 
 
-This project is licensed under the **"Revolutionary Innovation License"**:- **Claude (Cline)**: Additional development assistance3. Make your changes
+This project is licensed under the **"Revolutionary Innovation License"**:- **Claude (Cline)**: Additional development assistance. Make your changes
 
 - ✅ **Use it** - Before Blizzard kills it
 
@@ -686,11 +686,11 @@ This is more than an addon. **This is a statement.**  - [Wowhead Database](https
 
 1. Create test characters of different races/classes
 
-## ⚖️ **LICENSE**2. Use `/reload` after making changes
+## ⚖️ **LICENSE**. Use `/reload` after making changes
 
 3. Test with various spec and hero talent combinations
 
-This project is licensed under the "Revolutionary Innovation License" - meaning:4. Verify addon integrations work correctly
+This project is licensed under the "Revolutionary Innovation License" - meaning: Verify addon integrations work correctly
 
 - ✅ Use it, love it, spread the revolution5. Check performance with Details! integration
 
