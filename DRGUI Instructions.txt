@@ -1,0 +1,42 @@
+We are going to create addons for the video game World of Warcraft. 
+
+My xAI API Key is:
+YOUR_XAI_API_KEY_HERE
+
+Please create an addon that sets up  a UI for the game and these UI profiles can be saved and exported in-game. These profiles would be unique to each race, class, spec and hero talent tree combination in the game We'll call it "DRGUI" (for DonkRonk and Grok User Interface). I would also like to implement some sort of AI assistance, specifically with Grok, 4 when installing the addon to make it easier for the user and give them a unique experience for every race, class, spec and hero talent combo available. The addon should autodetect what the character's race, class, spec and hero talents they are when they log into the game for that character. Any other features you think this addon should have? I'm thinking about animations, unique character icons and borders, AI assistance in-game, etc. Please get creative!
+
+I would like to create an ElvUI-based addon for my characters; a unique, creative, minimalistic, cartoony (like Bushido), action packed UI for my World of Warcraft character. hese are the current addons I have that you can utilize to create this UI addon: ElvUI, Bagnon, Bartender4, BigWigs Encounter Tools, Compact Runes, DBM - Deadly Boss Mods (DBM-Core), DBM - Dungeons, Delves, Visions, & Events (Requires Deadly Boss Mods) - DBM, DBM-Interrupts, Cast Log (Details! Plugin), Details! Damage Meter: Chart Viewer (plugin), Advanced Death Logs (Details! Plugin), Details!: Elitism (plugin), Details! Damage Meter Mythic+, Details! Mythic Group Rating, Details! Damage Meter: Time Line (plugin), Details! Damage Meter, ElvUI Eltruism, JiberishUI Icons, ElvUI JiberishUI, GSE: Sequences, Variables, Macros, GTFO, JiberishMedia, Bushido (ElvUI Profile by JiberishUI), Details!: Framework (library), LittleWigs, MacroManager, Macro Toolkit, MaxDps Rotation Helper, ElvUI mMediaTag & Tools, Mythic Dungeon Tools - MDT, Nameplate Scrolling Combat Text, Pawn, PeaversCommons, PeaversTalents, PeaversTalentsData, Plater Nameplates, Premade Groups Filter, Raider.IO Mythic Plus, Raid Progress, and Recruitment, Scrap (Junk Seller), Simulationcraft, Threat Plates and WeakAuras, ACE3 GUI Panel Widget, Action Button Animation, Bartender4 Animations, Dominos Animations, Dominos_Auras, Dominos_BuffTimes, Dominos, Masque: Dominos, Masque, QuickQuest, Calanon's DBM Voicepack English female, Chatty Little NPC (AI Voiceovers), Prat & WIM (Whisper Ignored Manager), Elephant, Misspelled, Guild Roster Manager (GRM), Guild Roster Manager (GRM) - Group Info, AltzUI,Hekili ElvUI Player Anchor, Hekili Priority Helper, HeroRotation, Dialogue UI. We can use any and all these addons to create our own addon. Do not use addons that may conflict with another addon but try not to limit yourself on which addons you use. Really lean into the Details addon for real-time battle stats.
+
+Incorporate websites like Icey Veins, Wowhead, MMO-Champion, Warcraft Wiki (formerly WoWWiki), Raider.IO, Blizzard Watch, CurseForge & WoWInterface, WarcraftLogs, Raidbots & SimulationCraft, WarcraftPets, Undermine Exchange & Saddlebag Exchange, /r/wow & /r/wownoob (Reddit), Blizzard Official Forums, WoW Armory, Battle Net, ElvUI, Wago.io, WoWUp.io, and even Class-specific Discords for your searches and consideration for integration into the addon:
+Wowhead: This is arguably the most comprehensive WoW database, offering information on items, quests, NPCs, skills, professions, and more. It also features extensive guides for leveling, raids, dungeons, classes, and professions, according to www.sarranuva.com and. The comment sections for individual entries are often valuable resources themselves.
+MMO-Champion: This site focuses on news, datamining, and general discussion related to WoW and other Blizzard titles. It is well-known for its forums and the latest information about game updates and developments.
+Icy Veins: A dedicated resource for character guides, raid strategies, class optimization, and general game help. It is particularly praised for its in-depth class guides, often written by top-tier players and theorycrafters.
+Warcraft Wiki (formerly WoWWiki): This extensive wiki provides a wealth of information about the Warcraft universe, including lore, characters, locations, and game mechanics. It is considered the go-to source for lore and background information.
+Raider.IO & WoWProgress: These sites track and rank players and guilds based on their performance in raids and Mythic+ dungeons. They are essential for competitive players to track their progress and compare with others. Raider.IO also has a classic version. 
+Other valuable WoW resources
+Blizzard Watch: Offers news, editorials, and opinions on all Blizzard games and events.
+CurseForge & WoWInterface: These are the primary sources for WoW addons, offering a vast library of user-created enhancements for the game interface and gameplay.
+WarcraftLogs: Analyzes raid logs to provide detailed performance breakdowns and allow players to optimize their strategies and builds.
+Raidbots & SimulationCraft: These tools allow players to simulate their characters' performance to optimize gear and talent choices for maximum damage or healing output.
+WarcraftPets: A database and guide dedicated to WoW battle pets.
+Undermine Exchange & Saddlebag Exchange: These sites focus on gold-making strategies, Auction House data, and economic insights within WoW.
+Class-specific Discords: Many popular WoW communities on Discord are dedicated to specific classes, providing in-depth discussion, guides, and support from experienced players.
+/r/wow & /r/wownoob (Reddit): Large subreddits dedicated to World of Warcraft, offering discussion forums, news, community interaction, and helpful resources for both new and experienced players.
+Blizzard Official Forums: The official forums hosted by Blizzard Entertainment offer a platform for discussion, feedback, and interaction with the game developers and other players 
+CurseForge: This is considered the largest and most popular repository for WoW addons. They offer both a website for manual download and a standalone desktop application for easier installation and updates.
+WoWInterface: Another long-standing and reputable addon repository, it's often cited alongside CurseForge as a primary source.
+Wago.io: A popular platform for sharing and importing custom WeakAuras and Plater profiles, among others. It also integrates with addon managers like WoWUp.
+WoWUp.io: An open-source, lightweight addon manager that supports various platforms, including Wago.io and WoWInterface.
+
+Also include integration with Youtube (live upload/streaming, tutorials/walkthroughs and streaming music).
+
+We will be using programs like Visual Studio and Visual Studio Code to create the files necessary. World of Warcraft (WoW) add-ons primarily use the Lua programming language. While some layout elements can be created using XML, the core functionality and logic of an addon is written in Lua. Additionally, WoW uses a specific version of Lua (5.1). 
+Here's a more detailed breakdown:
+Lua:
+This is the main language used for WoW addons. You'll write scripts in Lua to handle in-game events, interact with the user interface, and implement the addon's features. 
+XML:
+While not a programming language, XML is used to define the layout of the UI elements in an addon. 
+WoW API:
+Blizzard provides a set of functions (the WoW API) that addons can use to interact with the game, such as getting player information, triggering spells, or manipulating the UI. 
+Example:
+A simple addon might involve creating a Lua script that listens for a specific combat event, then uses the API to display a message on the screen

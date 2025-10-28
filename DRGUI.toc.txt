@@ -1,0 +1,19 @@
+## Interface: 110200
+## Title: DRGUI - DonkRonk & Grok UI
+## Author: DonkRonk (with Grok assistance)
+## Version: 1.0
+## Dependencies: ElvUI, Details, WeakAuras
+## OptionalDeps: GTFO, mMediaTag, JiberishMedia, DBM-Test, Masque, DBM-Core, BigWigs, Hekili, BetterWardrobe, MDT, RaiderIO, Prat-3.0, WIM, GuildRosterManager  // For sims
+## SavedVariables: DRGUIDB
+## Notes: ElvUI-based UI with xAI for dynamic file gen. Test with /drgui debug.
+
+DRGUI.xml
+DRGUI.lua
+core/profile_manager.lua
+integrations/details_hook.lua
+integrations/weakauras_hook.lua
+integrations/alerts_hook.lua
+integrations/wardrobe_hook.lua
+integrations/mdt_hook.lua
+utils/file_handler.lua
+tests/combo_sim.lua

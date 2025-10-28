@@ -1,0 +1,202 @@
+# DRGUI .gitignore
+# Production-ready gitignore for World of Warcraft addon and Python desktop app
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# === WoW Addon Development ===
+# User-specific WTF files
+WTF/
+# Temp files
+*.tmp
+*.temp
+# Log files
+*.log
+Logs/
+# Cache files
+Cache/
+# SavedVariables (contains user data)
+SavedVariables/
+# Interface cache
+*.toc.bak
+
+# === Development Tools ===
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/.ropeproject
+# PyCharm
+.idea/
+# Jupyter
+.jupyter/
+*.ipynb_checkpoints
+
+# === System Files ===
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# === Build and Distribution ===
+# Release builds
+releases/
+dist/
+build/
+# Compiled executables
+*.exe
+*.app
+*.deb
+*.rpm
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tgz
+
+# === API Keys and Secrets ===
+# xAI API keys
+*.key
+secrets.json
+config.json
+.env.local
+.env.production
+
+# === Backup Files ===
+# Automatic backups
+*_backup_*
+*.bak
+*.backup
+# Profile backups
+DRGUI_Backups/
+profiles_backup/
+
+# === Testing ===
+# Test results
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# === Documentation ===
+# Generated docs
+docs/_build/
+site/
+
+# === Temporary Work Files ===
+# Text editor backups
+*~
+*.swp
+*.swo
+# Temporary image files
+*.tmp.tga
+*.tmp.blp
+# Work in progress
+*_WIP.*
+*_TODO.*
+
+# === User-Specific Files ===
+# Personal notes
+PERSONAL_NOTES.txt
+TODO_PERSONAL.txt
+# User configurations
+user_config.lua
+personal_settings.json
+
+# === Exclude but keep structure ===
+# Keep directory structure but ignore contents
+media/generated/*
+!media/generated/.gitkeep
+scripts/temp/*
+!scripts/temp/.gitkeep
+
+# === Include Important Files ===
+# Force include essential files that might be ignored
+!README.md
+!LICENSE
+!CHANGELOG.md
+!.gitkeep
+!requirements.txt
+!setup.py
+
+# === Specific to DRGUI ===
+# Auto-generated profile files
+profiles/auto_generated/
+# Generated images
+media/auto_generated/
+# Dependency downloads
+deps/
+downloads/
+# Build artifacts
+scripts/build/
+scripts/dist/
+# User data
+user_data/
+# Logs
+*.log
+debug.txt
+
+# === GitHub-specific ===
+# Security scanning
+.github/dependabot.yml

@@ -1,0 +1,10 @@
+## Interface: 110205
+## Title: |cff1784d1DRGUI|r - Safe Mode
+## Notes: DRGUI Emergency Safe Version - No XML, Minimal Loading
+## Author: DonkRonk17
+## Version: 2.0.0-SAFE
+## SavedVariables: DRGUIDB
+## RequiredDeps: 
+
+# EMERGENCY SAFE MODE - No XML, minimal file loading
+DRGUI-SAFE.lua

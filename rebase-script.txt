@@ -1,0 +1,3 @@
+edit c5c2410 #  Initial release v1.0.0 - DRGUI World of Warcraft addon with desktop application
+pick b58cd8c #  Add GitHub repository setup instructions
+pick 88a51e8 #  Security: Remove API keys from public files

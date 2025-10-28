@@ -1,0 +1,67 @@
+Useful Links-
+Grok:
+DRGUI Phase 1-5- https://grok.com/share/c2hhcmQtMg%3D%3D_577bb3a5-0a7b-437b-aee2-a47c90d2d5f8
+GitHub Addon Analysis- https://grok.com/share/c2hhcmQtMg%3D%3D_290a9dac-638b-4ec9-a0cb-778b389ee44b
+xAI Grok Main Page- https://x.ai/grok
+xAI Grok API Overview- https://docs.x.ai/docs/overview
+xAI Grok API Reference- https://docs.x.ai/docs/api-reference
+xAI Grok Introduction- https://docs.x.ai/docs/introduction
+xAI Grok Python SDK Guide- https://apidog.com/blog/xai-grok-api/
+Grok Workspace for Project Management- https://www.linkedin.com/pulse/unleashing-productivity-ai-powered-features-grok-workspace-grenu-ic6ye
+Grok Studio Collaborative Workspace- https://devops.com/grok-studio-xais-new-collaborative-workspace-transforms-ai-assisted-development/
+Grok Workspace Update Discussion- https://www.reddit.com/r/grok/comments/1jxc5ie/grok_now_has_workspace_for_project_management_a/
+GitHub:
+AddOns Folder and Files- https://github.com/DonkRonk/AddOns.git
+Awesome WoW Addon Resources- https://github.com/JuanjoSalvador/awesome-wow
+Google Drive:
+AddOns.zip- https://drive.google.com/drive/folders/1kSpRlJu7GUDLj2lFKg9T53Dr3kbpXGNn?usp=sharing
+Dropbox:
+AddOns.zip- https://www.dropbox.com/scl/fi/6gua2ib2x6rnyhcg0jjuj/AddOns.zip?rlkey=xvec6prl5hhhews0cwfd8tsog&st=hfswyb85&dl=0
+WoW Resources:
+Wowhead (Database, Guides, Comments)- https://www.wowhead.com/
+Icy Veins (Class Guides, Raid Strategies)- https://www.icy-veins.com/
+MMO-Champion (News, Datamining, Forums)- https://www.mmo-champion.com/
+Warcraft Wiki (Lore, Mechanics)- https://wowpedia.fandom.com/wiki/Wowpedia
+Raider.IO (Rankings, M+ and Raid Progress)- https://raider.io/
+Blizzard Watch (News, Editorials)- https://blizzardwatch.com/
+WarcraftLogs (Performance Analysis)- https://www.warcraftlogs.com/
+Raidbots (Gear Optimization Simulations)- https://www.raidbots.com/simbot
+SimulationCraft (Character Sims)- https://simulationcraft.org/
+WarcraftPets (Battle Pets Database)- https://www.warcraftpets.com/
+Undermine Exchange (Economy, AH Data)- https://theunderminejournal.com/
+Saddlebag Exchange (Gold-Making Tools)- https://saddlebage.exchange/
+WoW Armory (Character Profiles)- https://worldofwarcraft.blizzard.com/en-us/character
+Battle.net (Official Site)- https://battle.net/
+Addon Sites:
+CurseForge (Addon Repository)- https://www.curseforge.com/wow/addons
+WoWInterface (Addon Downloads)- https://www.wowinterface.com/
+Wago.io (WeakAuras, Plater Profiles)- https://wago.io/
+WoWUp.io (Addon Manager)- https://wowup.io/
+ElvUI Official Download- https://tukui.org/elvui
+Tukui Community (ElvUI and TukUI)- https://tukui.org/
+AddOn Studio (Development Tools)- https://addonstudio.org/wiki/AddOn_Studio
+Communities:
+Reddit /r/wow- https://www.reddit.com/r/wow/
+Reddit /r/wownoob- https://www.reddit.com/r/wownoob/
+Blizzard Official Forums- https://us.forums.blizzard.com/en/wow/
+WoW Class Discords List (Wowhead)- https://www.wowhead.com/discord-servers
+WoW Class Discords (Reddit Wiki)- https://www.reddit.com/r/wow/wiki/discord/
+Class Discord Channels (Icy Veins)- https://www.icy-veins.com/forums/topic/16114-class-discord-channels/
+Development Tools and Resources:
+Visual Studio Code (Editor for Lua/XML)- https://code.visualstudio.com/
+Lua 5.1 Reference Manual- https://www.lua.org/manual/5.1/
+World of Warcraft API (Wowpedia)- https://wowpedia.fandom.com/wiki/World_of_Warcraft_API
+Blizzard WoW Game Data APIs- https://develop.battle.net/documentation/world-of-warcraft/game-data-apis
+Blizzard WoW API Documentation- https://develop.battle.net/documentation/world-of-warcraft
+WoW Addon Development Learning Resources (Reddit)- https://www.reddit.com/r/wowaddons/comments/juzreh/learning_resources_for_addon_development/
+Beginner's Guide to WoW Addon Coding in Lua- https://www.wowhead.com/guide/comprehensive-beginners-guide-for-wow-addon-coding-in-lua-5338
+Create a WoW AddOn in 15 Minutes- https://wowpedia.fandom.com/wiki/Create_a_WoW_AddOn_in_15_Minutes
+Turtle WoW Addons and Resources- https://turtle-wow.fandom.com/wiki/Addons
+WoW: Development Reference- https://addonstudio.org/wiki/WoW:Development
+YouTube Channels and Tutorials:
+Best WoW Addons for 2025 UI Guide- https://www.youtube.com/watch?v=Y4jA6UNesWg
+WoW Clean UI Tutorial (No Addons)- https://www.youtube.com/watch?v=f7Yc5SvKDBI
+MadSkillzzTV WoW Addons & UI Playlist- https://www.youtube.com/playlist?list=PLF3gECj8Aam0ZbDZhiHWlMZmpVGHVQtl5
+ULTIMATE UI Guide to CELL (Healing Addon)- https://www.youtube.com/watch?v=xDTqHGHEoOY
+Awesome Addons Series Playlist- https://www.youtube.com/playlist?list=PLYWsqa12Q6pPNlpDm5ylqZxzCa5MOvwTR
+How to Develop WoW Addons - Hello World Tutorial- https://www.youtube.com/watch?v=-NbjQdHldew

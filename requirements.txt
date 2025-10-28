@@ -1,0 +1,60 @@
+# DRGUI AI Designer - Enhanced Requirements
+# Comprehensive AI-powered UI design tool with WoW integration
+# Note: tkinter and sqlite3 come bundled with Python - no need to install
+
+# Game Simulation and Graphics
+pygame>=2.1.0                  # Game simulation engine and WoW-like rendering
+Pillow>=8.0.0                 # Image processing and UI element manipulation
+numpy>=1.21.0                 # Numerical computing for graphics and calculations
+opencv-python>=4.5.0          # Computer vision for WoW asset extraction
+matplotlib>=3.5.0             # Advanced plotting and UI preview generation
+
+# WoW Integration and Asset Processing
+py7zr>=0.20.0                 # Extract WoW game assets from archives
+lxml>=4.9.0                   # XML parsing for WoW configuration files
+configparser>=5.2.0           # Parse WoW SavedVariables and config files
+beautifulsoup4>=4.11.0        # Parse HTML/XML from WoW Armory data
+
+# AI and Machine Learning
+openai>=0.27.0                # OpenAI GPT-4 integration
+transformers>=4.20.0          # Local AI models (Hugging Face)
+torch>=1.12.0                 # PyTorch for transformers
+scikit-learn>=1.1.0           # Machine learning algorithms
+nltk>=3.7                     # Natural language processing
+
+# Networking and APIs
+requests>=2.28.0              # HTTP requests for API calls
+aiohttp>=3.8.0                # Async HTTP for OpenAI
+
+# System Integration
+psutil>=5.9.0                 # System monitoring and process management
+python-dotenv>=0.19.0         # Environment variable management
+
+# Optional Cloud Integration
+google-api-python-client>=2.0.0    # Google Drive integration (optional)
+dropbox>=11.30.0                    # Dropbox integration (optional)
+
+# Development and Testing
+pytest>=7.0.0                 # Testing framework
+black>=22.0.0                 # Code formatting
+flake8>=4.0.0                 # Code linting
+
+# Build and Distribution
+pyinstaller>=5.0.0            # Create standalone executables
+setuptools>=60.0.0            # Package building
+wheel>=0.37.0                 # Wheel package format
+
+# Audio and Media (for WoW-like experience)
+mutagen>=1.45.0               # Audio metadata
+
+# Additional Utilities
+colorama>=0.4.4               # Cross-platform colored terminal output
+tqdm>=4.64.0                  # Progress bars
+
+# Performance Optimization
+numba>=0.56.0                 # JIT compilation for performance
+cython>=0.29.0                # C extensions for speed
+
+# Security
+cryptography>=3.4.8          # Encryption for sensitive data
+keyring>=23.5.0               # Secure credential storage

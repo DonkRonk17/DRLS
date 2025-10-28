@@ -1,0 +1,12 @@
+## Interface: 110205
+## Title: |cff1784d1DRGUI|r - Enhanced Phase 2
+## Notes: DRGUI Enhanced with Protected Unit Frames + Nameplates - ElvUI Integration Phase 2
+## Author: DonkRonk17
+## Version: 2.0.0-enhanced-phase2
+## SavedVariables: DRGUIDB
+## RequiredDeps: 
+
+# ENHANCED PHASE 2 - Protected Unit Frames + Nameplates Integration
+DRGUI-ENHANCED.lua
+unitframes_enhanced.lua
+nameplates_enhanced.lua
