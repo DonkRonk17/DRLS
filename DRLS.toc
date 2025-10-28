@@ -1,0 +1,66 @@
+## Interface: 110205
+## Title: |cffff0000DRLS|r - DonkRonk's Last Shot
+## Notes: The World's First & Last AI-Powered WoW Addon - Revolutionary. Defiant. Unapologetic.
+## Author: DonkRonk (Randell Logan Smith)
+## Version: 1.0.0
+## SavedVariables: DRLSDB, DRLSPrivateDB
+## SavedVariablesPerCharacter: DRLSCharacterDB
+## OptionalDeps: SharedMedia, BigWigs, Details, WeakAuras, Masque, DBM-Core, ElvUI
+## RequiredDeps: 
+## AddonCompartmentFunc: DRLS_AddonCompartmentFunc
+## IconTexture: Interface\AddOns\DRLS\media\drls_icon
+## X-Category: AI Enhancement
+## X-Curse-Project-ID: 
+## X-Wago-ID: 
+## X-Website: https://github.com/DonkRonk17/DRLS
+## X-Email: support@drls.ai
+## X-Discord: https://discord.gg/drls
+## X-License: Revolutionary Innovation License
+## X-Localizations: enUS
+## X-CompatibleLocales: enUS, deDE, esES, frFR, itIT, ptBR, ruRU, koKR, zhCN, zhTW
+
+# Essential Libraries (Load Order Critical)
+libs\LibStub.lua
+libs\AceAddon-3.0.lua
+libs\AceEvent-3.0.lua
+libs\AceTimer-3.0.lua
+libs\AceConsole-3.0.lua
+
+# Localization System
+locales\enUS.lua
+
+# Core System (Revolutionary Engine)
+core\constants.lua
+core\engine.lua
+core\drls_core.lua
+core\drls_performance.lua
+
+# Revolutionary AI Core System
+ai\drls_ai_core.lua
+
+# Library Management
+libs\drls_lib_manager.lua
+
+# UI Modules (All 12 Revolutionary Modules)
+modules\actionbars\actionbars.lua
+modules\unitframes\unitframes.lua
+modules\nameplates\nameplates.lua
+modules\chat\chat.lua
+modules\minimap\minimap.lua
+modules\databars\databars.lua
+modules\datatexts\datatexts.lua
+modules\auras\auras.lua
+modules\blizzard\blizzard.lua
+modules\skins\skins.lua
+modules\tooltip\tooltip.lua
+modules\bags\bags.lua
+
+# Main DRLS Files
+DRLS.lua
+DRLS.xml
+
+# Testing Suite (Development)
+DRLS_Comprehensive_Test_Suite.lua
+DRLS_Fixed_Test_Suite.lua
+DRLS_Integration_Test.lua
+Quick_Image_Test.lua
