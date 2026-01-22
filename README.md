@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/302f97d6-d031-4994-91be-d92a67ee980a" />
+
 # 🎉 DRLS - Where Professional Development Meets Revolutionary Innovation
 
 **Experience the future of WoW addon development with professional tools and revolutionary AI technology.**
@@ -9,6 +11,11 @@
 [![AI-Powered](https://img.shields.io/badge/AI-Powered-blue?style=for-the-badge)](https://github.com/DonkRonk17/DRLS)
 [![Defiant](https://img.shields.io/badge/Attitude-Defiant-orange?style=for-the-badge)](https://github.com/DonkRonk17/DRLS)
 [![Unapologetic](https://img.shields.io/badge/Approach-Unapologetic-purple?style=for-the-badge)](https://github.com/DonkRonk17/DRLS)
+
+---
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4fb38308-4166-458d-b5f6-a70cda66fed2" />
+
 
 ---
 
@@ -186,6 +193,9 @@ DRGUI.AI = {
 
 ---
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d8489aa5-b0e6-45a4-bdbe-c0abcf95c140" />
+
+
 ## 🚨 **WHAT THE WORLD LOSES WHEN BLIZZARD WINS**
 
 ### 💀 **The Death of Innovation:**
@@ -358,6 +368,9 @@ DRLS started as a dream: an AI-powered addon that could learn from the entire Wo
 ### **Revolutionary. Defiant. Unapologetic.**
 
 ---
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/40634dea-be77-4a54-bcf5-3dac20814367" />
+
 
 ## 🚨 **RUN THE DEMOS. SEE THE MAGIC. RAGE AT THE LOSS.**
 
