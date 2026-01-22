@@ -1,6 +1,6 @@
-# 🎉 DRLS - Where Professional Development Meets Revolutionary Innovation**
+# 🎉 DRLS - Where Professional Development Meets Revolutionary Innovation
 
-*Experience the future of WoW addon development with professional tools and revolutionary AI technology.*
+**Experience the future of WoW addon development with professional tools and revolutionary AI technology.**
 =======
 # 🎯 **DRLS - DonkRonk's Last Shot**
 ## *"The World's First & Last AI-Powered WoW Addon"*
