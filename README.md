@@ -548,4 +548,3 @@ DRLS started as a dream: an AI-powered addon that could learn from the entire Wo
 ---
 
 *This README represents the pinnacle of what's possible in WoW addon development. When Blizzard kills addons, remember what could have been.*
->>>>>>> 5256d27a1785c187bb9d72902a2aef7e042d48f6
