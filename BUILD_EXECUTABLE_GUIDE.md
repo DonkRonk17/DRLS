@@ -498,6 +498,7 @@ A: Send new .exe, they replace old one.
 - PyInstaller: https://pyinstaller.org/
 - UPX (compression): https://upx.github.io/
 - Resource Hacker (icon editor): http://www.angusj.com/resourcehacker/
+- [Resource Cracker](https://www.pelock.com/products/resource-cracker)
 
 ### Communities
 - PyInstaller GitHub: https://github.com/pyinstaller/pyinstaller
